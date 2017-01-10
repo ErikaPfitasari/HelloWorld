@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace HelloWorld.Controllers
+namespace HelloWorldASP.Controllers
 {
     public class HomeController : Controller
     {
@@ -26,10 +26,9 @@ namespace HelloWorld.Controllers
 
             return View();
         }
-
         public ActionResult Hello()
         {
-            ViewBag.Message = "Hello World";
+            ViewBag.Message = "Hello world.";
 
             return View();
         }
